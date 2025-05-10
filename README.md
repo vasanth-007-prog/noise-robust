@@ -15,11 +15,10 @@ Handles common errors like unclear speech or API issues
 🛠️ Requirements
 Before running the program, make sure you have the following installed:
 
-bash
-Copy
-Edit
 pip install SpeechRecognition
+
 pip install PyAudio
+
 Note: On some systems, installing PyAudio may require additional setup:
 
 Windows: Use pip install pipwin && pipwin install pyaudio
@@ -35,10 +34,8 @@ Open a terminal in the project directory.
 
 Run the script:
 
-bash
-Copy
-Edit
 python speech_recognition_program.py
+
 Follow the on-screen instructions:
 
 Speak clearly into your microphone.
@@ -50,7 +47,6 @@ Decide if you'd like to continue or exit.
 📂 Output
 If you choose to save your speech transcript, it will be appended to a file called:
 
-Copy
-Edit
+
 transcript.txt
 Each speech entry will be saved on a new line.
